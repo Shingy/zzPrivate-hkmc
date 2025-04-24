@@ -1,0 +1,69 @@
+if [ "$1" != "" ];
+then
+    cd $1
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal.git
+    cd sales_portal
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_admin.git
+    cd sales_portal_admin
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_api.git
+    cd sales_portal_api
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_backend.git
+    cd sales_portal_backend
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_card.git
+    cd sales_portal_card
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_collaboration.git
+    cd sales_portal_collaboration
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_home.git
+    cd sales_portal_collaboration
+    git checkout -b dev origin/dev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+else
+    echo no action. need target path\(../../Workspace_2 or another\).
+fi

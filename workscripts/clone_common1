@@ -1,0 +1,76 @@
+if [ "$1" != "" ];
+then
+    cd $1
+
+    # git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/ias_usersync_job.git
+    # cd ias_usersync_job
+    # git checkout -b dev origin/dev
+    # git checkout -b commondev origin/commondev
+    # if [ "$2" == "" ];
+    # then
+    #     rm -Rf .git*
+    # fi
+    # cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal.git
+    cd sales_portal
+    # git checkout -b dev origin/dev
+    git checkout -b commondev origin/commondev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_admin.git
+    cd sales_portal_admin
+    # git checkout -b dev origin/dev
+    git checkout -b commondev origin/commondev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_api.git
+    cd sales_portal_api
+    # git checkout -b dev origin/dev
+    git checkout -b commondev origin/commondev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_backend.git
+    cd sales_portal_backend
+    # git checkout -b dev origin/dev
+    git checkout -b commondev origin/commondev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_card.git
+    cd sales_portal_card
+    git checkout -b dev origin/dev
+    # git checkout -b commondev origin/commondev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+
+    git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_collaboration.git
+    cd sales_portal_collaboration
+    git checkout -b dev origin/dev
+    # git checkout -b commondev origin/commondev
+    if [ "$2" == "" ];
+    then
+        rm -Rf .git*
+    fi
+    cd ..
+else
+    echo no action. need target path\(../../Workspace_1 or another\).
+fi
