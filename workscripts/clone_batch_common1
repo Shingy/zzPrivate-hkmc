@@ -1,0 +1,43 @@
+cd ../OLD
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/ias_usersync_job.git
+# cd ias_usersync_job
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal.git
+# cd sales_portal
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_admin.git
+# cd sales_portal_admin
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_api.git
+# cd sales_portal_api
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_backend.git
+# cd sales_portal_backend
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_card.git
+# cd sales_portal_card
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
+
+# git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_collaboration.git
+# cd sales_portal_collaboration
+# git checkout -b dev origin/dev
+# rm -Rf .git*
+# cd ..
