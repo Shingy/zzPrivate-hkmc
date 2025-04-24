@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "zzPrivate"
+		},
+		{
+			"path": "zzPrivate-hkmc"
+		},
+		{
+			"path": "Workspace_1"
+		},
+		{
+			"path": "Workspace_2"
+		},
+		{
+			"path": "hacc_1300"
+		},
+		{
+			"path": "kmx_2d00"
+		},
+		{
+			"path": "kca_2c00"
+		}
+	],
+	"settings": {
+		"SAP HANA Database Explorer.ShowXsAdvancedConnections": true
+	}
+}
+
