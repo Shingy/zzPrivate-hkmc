@@ -1,39 +1,72 @@
-=============
-1st companies
-=============
-*) hacc_1300 links
-ln -s ../hacc_1300/common_1300 common_1300
-ln -s ../hacc_1300/dealer_statement_1300 dealer_statement_1300
-ln -s ../hacc_1300/etc_1300 etc_1300
-ln -s ../hacc_1300/fleet_1300 fleet_1300
-ln -s ../hacc_1300/incentive_1300 incentive_1300
-ln -s ../hacc_1300/order_1300 order_1300
-ln -s ../hacc_1300/sales_1300 sales_1300
-ln -s ../hacc_1300/stock_1300 stock_1300
+*) extra command list
+git checkout -b dev origin/dev
+#git config --global http.sslVerify false
 
 
-*) kmx_2d00 links
-ln -s ../kmx_2d00/admin_2d00 admin_2d00
-ln -s ../kmx_2d00/apartados_2d00 apartados_2d00
-ln -s ../kmx_2d00/common_2d00 common_2d00
-ln -s ../kmx_2d00/dashboard_2d00 dashboard_2d00
-ln -s ../kmx_2d00/fleet_2d00 fleet_2d00
-ln -s ../kmx_2d00/incentives_2d00 incentives_2d00
-ln -s ../kmx_2d00/invoice_2d00 invoice_2d00
-ln -s ../kmx_2d00/lead_management_2d00 lead_management_2d00
-ln -s ../kmx_2d00/order_2d00 order_2d00
-ln -s ../kmx_2d00/parts_2d00 parts_2d00
-ln -s ../kmx_2d00/report_2d00 report_2d00
-ln -s ../kmx_2d00/sales_2d00 sales_2d00
-ln -s ../kmx_2d00/scheduler_2d00 scheduler_2d00
-ln -s ../kmx_2d00/stock_2d00 stock_2d00
-ln -s ../kmx_2d00/training_2d00 training_2d00
+
+=============
+3rd companies
+=============
+*) hma_1200
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/admin_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/admin_internal_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/etc_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/finance_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/otd_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/parts_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/report_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/sales_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/service_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/vins_1200.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/warranty_1200.git
+
+
+*) kus_2b00
+-- KIAS
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/claim_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/common_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/home_kias_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/payment_lookup_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/program_lookup_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/report_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kias/vehicle_lookup_2b00.git
+
+-- KPC
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kpc/common_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kpc/home_kpc_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kpc/reports_2b00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kus/kpc/tools_2b00.git
+
 
 
 
 =============
 2nd companies
 =============
+*) Common_2
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_admin.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_api.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_backend.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_card.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_collaboration.git
+
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_2/sales_portal_home.git
+
+
+*) hmm_1600
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/admin_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/common_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/customer_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/incentives_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/dealership_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/home_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/invoice_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/order_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/parts_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/report_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/sales_1600.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hmm/stock_1600.git
 
 
 *) kca_2c00 links
@@ -49,4 +82,50 @@ ln -s ../kca_2c00/order_2c00 order_2c00
 ln -s ../kca_2c00/otd_2c00 otd_2c00
 ln -s ../kca_2c00/sales_2c00 sales_2c00
 ln -s ../kca_2c00/stock_2c00 stock_2c00
+
+
+
+=============
+1st companies
+=============
+*) Common
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/ias_usersync_job.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_admin.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_api.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_backend.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_card.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_collaboration.git
+
+#git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_iam.git
+#git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/sales_portal_scheduler.git
+
+
+*) hacc_1300
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/common_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/dealer_statement_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/etc_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/fleet_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/incentive_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/order_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/sales_1300.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hacc/stock_1300.git
+
+
+*) kmx_2d00
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/admin_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/apartados_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/common_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/dashboard_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/fleet_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/incentives_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/invoice_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/lead_management_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/order_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/parts_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/report_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/sales_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/scheduler_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/stock_2d00.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/kmx/training_2d00.git 
 

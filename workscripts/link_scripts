@@ -1,0 +1,101 @@
+=============
+3rd companies
+=============
+*) hma_1200 links
+ln -s ../hma_1200/admin_1200 admin_1200
+ln -s ../hma_1200/admin_internal_1200 admin_internal_1200
+ln -s ../hma_1200/etc_1200 etc_1200
+ln -s ../hma_1200/finance_1200 finance_1200
+ln -s ../hma_1200/otd_1200 otd_1200
+ln -s ../hma_1200/parts_1200 parts_1200
+ln -s ../hma_1200/report_1200 report_1200
+ln -s ../hma_1200/sales_1200 sales_1200
+ln -s ../hma_1200/service_1200 service_1200
+ln -s ../hma_1200/vins_1200 vins_1200
+ln -s ../hma_1200/warranty_1200 warranty_1200
+ln -s ../hma_1200/common_1200 common_1200
+
+
+*) kus_2b00 links
+-- KIAS
+ln -s ../kus_2b00/kias/claim_2b00 claim_2b00
+# ln -s ../kus_2b00/kias/common_2b00 common_2b00
+ln -s ../kus_2b00/kias/home_kias_2b00 home_kias_2b00
+ln -s ../kus_2b00/kias/payment_lookup_2b00 payment_lookup_2b00
+ln -s ../kus_2b00/kias/program_lookup_2b00 program_lookup_2b00
+ln -s ../kus_2b00/kias/report_2b00 report_2b00
+ln -s ../kus_2b00/kias/vehicle_lookup_2b00 vehicle_lookup_2b00
+
+-- KPC
+# ln -s ../kus_2b00/kpc/common_2b00 common_2b00
+ln -s ../kus_2b00/kpc/home_kpc_2b00 home_kpc_2b00
+ln -s ../kus_2b00/kpc/reports_2b00 reports_2b00
+ln -s ../kus_2b00/kpc/tools_2b00 tools_2b00
+
+
+
+=============
+2nd companies
+=============
+*) hmm_1600 links
+ln -s ../hmm_1600/admin_1600 admin_1600
+ln -s ../hmm_1600/common_1600 common_1600
+ln -s ../hmm_1600/customer_1600 customer_1600
+ln -s ../hmm_1600/incentives_1600 incentives_1600
+ln -s ../hmm_1600/dealership_1600 dealership_1600
+ln -s ../hmm_1600/home_1600 home_1600
+ln -s ../hmm_1600/invoice_1600 invoice_1600
+ln -s ../hmm_1600/order_1600 order_1600
+ln -s ../hmm_1600/parts_1600 parts_1600
+ln -s ../hmm_1600/report_1600 report_1600
+ln -s ../hmm_1600/sales_1600 sales_1600
+ln -s ../hmm_1600/stock_1600 stock_1600
+
+
+*) kca_2c00 links
+ln -s ../kca_2c00/admin_2c00 admin_2c00
+ln -s ../kca_2c00/common_2c00 common_2c00
+ln -s ../kca_2c00/dealer_statement_2c00 dealer_statement_2c00
+ln -s ../kca_2c00/dealership_2c00 dealership_2c00
+ln -s ../kca_2c00/etc_2c00 etc_2c00
+ln -s ../kca_2c00/incentive_2c00 incentive_2c00
+ln -s ../kca_2c00/invoice_2c00 invoice_2c00
+ln -s ../kca_2c00/master_2c00 master_2c00
+ln -s ../kca_2c00/order_2c00 order_2c00
+ln -s ../kca_2c00/otd_2c00 otd_2c00
+ln -s ../kca_2c00/sales_2c00 sales_2c00
+ln -s ../kca_2c00/stock_2c00 stock_2c00
+
+
+
+=============
+1st companies
+=============
+*) hacc_1300 links
+ln -s ../hacc_1300/common_1300 common_1300
+ln -s ../hacc_1300/dealer_statement_1300 dealer_statement_1300
+ln -s ../hacc_1300/etc_1300 etc_1300
+ln -s ../hacc_1300/fleet_1300 fleet_1300
+ln -s ../hacc_1300/incentive_1300 incentive_1300
+ln -s ../hacc_1300/order_1300 order_1300
+ln -s ../hacc_1300/sales_1300 sales_1300
+ln -s ../hacc_1300/stock_1300 stock_1300
+
+
+*) kmx_2d00 links
+ln -s ../kmx_2d00/admin_2d00 admin_2d00
+ln -s ../kmx_2d00/apartados_2d00 apartados_2d00
+ln -s ../kmx_2d00/common_2d00 common_2d00
+ln -s ../kmx_2d00/dashboard_2d00 dashboard_2d00
+ln -s ../kmx_2d00/fleet_2d00 fleet_2d00
+ln -s ../kmx_2d00/incentives_2d00 incentives_2d00
+ln -s ../kmx_2d00/invoice_2d00 invoice_2d00
+ln -s ../kmx_2d00/lead_management_2d00 lead_management_2d00
+ln -s ../kmx_2d00/order_2d00 order_2d00
+ln -s ../kmx_2d00/parts_2d00 parts_2d00
+ln -s ../kmx_2d00/report_2d00 report_2d00
+ln -s ../kmx_2d00/sales_2d00 sales_2d00
+ln -s ../kmx_2d00/scheduler_2d00 scheduler_2d00
+ln -s ../kmx_2d00/stock_2d00 stock_2d00
+ln -s ../kmx_2d00/training_2d00 training_2d00
+

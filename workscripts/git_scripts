@@ -1,0 +1,58 @@
+*) assume-unchange & no-assume-unchanged
+# git update-index --assume-unchanged 파일경로
+# git update-index --no-assume-unchanged 파일경로
+
+git update-index --assume-unchanged .gitignore
+git update-index --no-assume-unchanged .gitignore
+
+git update-index --assume-unchanged package-lock.json
+git update-index --no-assume-unchanged package-lock.json
+
+
+### ignore file list
+-- sales_portal
+git update-index --assume-unchanged .gitignore
+git update-index --assume-unchanged .cdsrc-private.json
+git update-index --assume-unchanged mta.yaml
+
+git update-index --assume-unchanged app/main/webapp/controller/Home.controller.js
+git update-index --assume-unchanged app/main/webapp/view/Home.view.xml
+
+git update-index --assume-unchanged approuter/xs-app.json
+git update-index --assume-unchanged approuter-local/xs-app.json
+git update-index --assume-unchanged approuter-local/default-env.json
+git update-index --assume-unchanged approuter-local/i18n/*
+
+git update-index --no-assume-unchanged .gitignore
+git update-index --no-assume-unchanged .cdsrc-private.json
+
+git update-index --no-assume-unchanged approuter-local/index.js
+git update-index --no-assume-unchanged approuter-local/default-env.json
+
+
+-- sales_portal_admin
+git update-index --assume-unchanged .gitignore
+
+
+-- sales_portal_api
+git update-index --assume-unchanged .gitignore
+
+
+-- sales_portal_backend
+git update-index --assume-unchanged .gitignore
+git update-index --assume-unchanged .cdsrc-private.json
+git update-index --assume-unchanged .cdsrc.json
+git update-index --assume-unchanged mta.yaml
+
+git update-index --no-assume-unchanged .cdsrc-private.json
+git update-index --no-assume-unchanged .cdsrc.json
+git update-index --no-assume-unchanged mta.yaml
+
+
+-- sales_portal_collaboration
+git update-index --assume-unchanged .gitignore
+
+
+-- sales_portal_home
+git update-index --assume-unchanged .gitignore
+
