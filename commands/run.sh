@@ -4,11 +4,8 @@ then
     cd /home/user/projects/zzPrivate-hkmc/commands
     ./cf_login.sh $1 $2
 fi
-cd ./ln_sales_portal
-if [ $? -ne 0 ];
-then
-    cd sales_portal
-fi
+
+cd /home/user/projects/Workspace_2/sales_portal
 
 ZEXIST_APP_NODE=`find ./approuter-local/* -name "node_modules"`
 ZEXIST_NODE=`find ./* -name "node_modules"`
