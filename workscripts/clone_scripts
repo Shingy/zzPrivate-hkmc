@@ -1,0 +1,52 @@
+=============
+1st companies
+=============
+*) hacc_1300 links
+ln -s ../hacc_1300/common_1300 common_1300
+ln -s ../hacc_1300/dealer_statement_1300 dealer_statement_1300
+ln -s ../hacc_1300/etc_1300 etc_1300
+ln -s ../hacc_1300/fleet_1300 fleet_1300
+ln -s ../hacc_1300/incentive_1300 incentive_1300
+ln -s ../hacc_1300/order_1300 order_1300
+ln -s ../hacc_1300/sales_1300 sales_1300
+ln -s ../hacc_1300/stock_1300 stock_1300
+
+
+*) kmx_2d00 links
+ln -s ../kmx_2d00/admin_2d00 admin_2d00
+ln -s ../kmx_2d00/apartados_2d00 apartados_2d00
+ln -s ../kmx_2d00/common_2d00 common_2d00
+ln -s ../kmx_2d00/dashboard_2d00 dashboard_2d00
+ln -s ../kmx_2d00/fleet_2d00 fleet_2d00
+ln -s ../kmx_2d00/incentives_2d00 incentives_2d00
+ln -s ../kmx_2d00/invoice_2d00 invoice_2d00
+ln -s ../kmx_2d00/lead_management_2d00 lead_management_2d00
+ln -s ../kmx_2d00/order_2d00 order_2d00
+ln -s ../kmx_2d00/parts_2d00 parts_2d00
+ln -s ../kmx_2d00/report_2d00 report_2d00
+ln -s ../kmx_2d00/sales_2d00 sales_2d00
+ln -s ../kmx_2d00/scheduler_2d00 scheduler_2d00
+ln -s ../kmx_2d00/stock_2d00 stock_2d00
+ln -s ../kmx_2d00/training_2d00 training_2d00
+
+
+
+=============
+2nd companies
+=============
+
+
+*) kca_2c00 links
+ln -s ../kca_2c00/admin_2c00 admin_2c00
+ln -s ../kca_2c00/common_2c00 common_2c00
+ln -s ../kca_2c00/dealer_statement_2c00 dealer_statement_2c00
+ln -s ../kca_2c00/dealership_2c00 dealership_2c00
+ln -s ../kca_2c00/etc_2c00 etc_2c00
+ln -s ../kca_2c00/incentive_2c00 incentive_2c00
+ln -s ../kca_2c00/invoice_2c00 invoice_2c00
+ln -s ../kca_2c00/master_2c00 master_2c00
+ln -s ../kca_2c00/order_2c00 order_2c00
+ln -s ../kca_2c00/otd_2c00 otd_2c00
+ln -s ../kca_2c00/sales_2c00 sales_2c00
+ln -s ../kca_2c00/stock_2c00 stock_2c00
+
