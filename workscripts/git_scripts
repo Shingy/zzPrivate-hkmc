@@ -59,5 +59,6 @@ git update-index --assume-unchanged .gitignore
 
 
 *) git gc --prune=now --aggressive
+   find . -maxdepth 1 -type d -exec bash -c 'cd "$1" && echo "Processing $1..." && git gc --prune=now --aggressive' _ {} \;
 ※ git 저장소의 크기를 줄이고 성능을 향상하는 명령어
 
