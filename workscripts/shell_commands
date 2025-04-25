@@ -5,7 +5,7 @@ find . -name "node_modules" -exec rm -Rf {} +
 
 *) create link : zzcf_login, zzdb_conn, zzrun in Workspace_2
 rm zzcf_login zzdb_conn zzrun
-ln -s ../zzPrivate-hkmc/commands/cf_login.sh zzcf_login
-ln -s ../zzPrivate-hkmc/commands/db_conn.sh zzdb_conn
-ln -s ../zzPrivate-hkmc/commands/run.sh zzrun
+ln -s ../zzPrivate/commands/cf_login.sh zzcf_login
+ln -s ../zzPrivate/commands/db_conn.sh zzdb_conn
+ln -s ../zzPrivate/commands/run.sh zzrun
 
