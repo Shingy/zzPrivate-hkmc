@@ -5,11 +5,11 @@ cd /home/user/projects/Workspace_2/sales_portal_backend
 
 ../zzcf_login $1 $2
 
-ZZ_SPACE=`cf target|grep space`
-ZZ_TARGET=$(echo ${ZZ_SPACE:16}|cut -d'_' -f 3)
-if [ "${ZZ_TARGET}" == "" ];
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
 then
-    ZZ_TARGET=$(echo ${ZZ_SPACE:16}|cut -d'_' -f 2)
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
 fi
 
 ZEXIST_NODE=`find ./* -name "node_modules"`
@@ -23,8 +23,8 @@ fi
 
 if [ "${2,,}" != "prd" ];
 then
-    echo -e "\n$1-${ZZ_TARGET,,}-setting\n"
-    npm run $1-${ZZ_TARGET,,}-setting
+    echo -e "\n$1-${ZZ_CURR_TARGET,,}-setting\n"
+    npm run $1-${ZZ_CURR_TARGET,,}-setting
 else
     echo -e "\n$1-${2,,}-setting\n"
     npm run $1-${2,,}-setting
@@ -35,7 +35,7 @@ cds build
 
 echo -e "\nstart cds deploy\n"
 cds deploy
-echo -e "\nend of cds deploy : ${2^^}\n"
+echo -e "\nend of cds deploy : ${ZZ_CURR_SPACE:16}\n"
 
 if [ "${2,,}" == "del" ] || [ "${2,,}" == "delete" ] || [ "${3,,}" == "del" ] || [ "${3,,}" == "delete" ];
 then
