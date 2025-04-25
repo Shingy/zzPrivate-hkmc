@@ -1,4 +1,5 @@
-# ln -s ../../zzPrivate-hkmc/workscripts/deploy_scripts/deploy_sales_portal_home.sh zzdeploy
+# rm zzdeploy
+# ln -s ../../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_home.sh zzdeploy
 
 cd /home/user/projects/Workspace_2/sales_portal_home
 

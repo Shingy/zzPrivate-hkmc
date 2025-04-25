@@ -1,4 +1,5 @@
-# ln -s ../../zzPrivate-hkmc/workscripts/deploy_scripts/cds_deploy_sales_portal_backend.sh zzcds_deploy
+# rm zzcds_deploy
+# ln -s ../../zzPrivate/workscripts/deploy_scripts/cds_deploy_sales_portal_backend.sh zzcds_deploy
 
 cd /home/user/projects/Workspace_2/sales_portal_backend
 

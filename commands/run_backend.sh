@@ -1,4 +1,5 @@
-# ln -s ../../zzPrivate-hkmc/commands/run_backend.sh zzrun
+# rm zzrun
+# ln -s ../../zzPrivate/commands/run_backend.sh zzrun
 
 cd /home/user/projects/Workspace_2/sales_portal_backend
 

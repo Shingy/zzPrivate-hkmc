@@ -1,4 +1,5 @@
-# ln -s ../../zzPrivate-hkmc/workscripts/deploy_scripts/deploy_sales_portal_admin.sh zzdeploy
+# rm zzdeploy
+# ln -s ../../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_admin.sh zzdeploy
 
 ZZ_IS_SETTING_MODE="setting"
 
