@@ -1,7 +1,7 @@
 ./cf_login.sh $1 $2
 if [ $? -ne 0 ];
 then
-    cd /home/user/projects/zzPrivate-hkmc/commands
+    cd /home/user/projects/zzPrivate/commands
     ./cf_login.sh $1 $2
 fi
 
