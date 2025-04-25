@@ -56,7 +56,7 @@ then
 
         if [ "${ZZ_TARGET^^}" != "PRD" ];
         then
-            if [ "${ZZ_SPACE_PRIFIX^^}_$ZZ_TARGET" != "${1^^}_$ZZ_CURR_TARGET" ];
+            if [ "${ZZ_SPACE_PRIFIX^^}_$ZZ_TARGET" != "${ZZ_CURR_SPACE:16}" ];
             then
                 cf login -a $ZZ_API_ENDPOINT -u $ZZ_EMAIL -p $ZZ_PW -o $1-$ZZ_ORG-org -s ${ZZ_SPACE_PRIFIX^^}_$ZZ_TARGET
             else
