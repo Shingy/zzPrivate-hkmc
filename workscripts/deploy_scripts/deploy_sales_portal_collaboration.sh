@@ -5,6 +5,8 @@ cd /home/user/projects/Workspace_2/sales_portal_collaboration
 
 ../zzcf_login $1 $2
 
+ZZ_CURR_SPACE=`cf target|grep space`
+
 ZEXIST_NODE=`find ./* -name "node_modules"`
 if [ "$ZEXIST_NODE" == "" ];
 then
@@ -19,7 +21,7 @@ npm run build
 
 echo -e "\nstart deploy\n"
 npm run deploy
-echo -e "\nend of deploy : ${2^^}\n"
+echo -e "\nend of deploy : ${ZZ_CURR_SPACE:16}\n"
 
 if [ "${2,,}" == "del" ] || [ "${2,,}" == "delete" ] || [ "${3,,}" == "del" ] || [ "${3,,}" == "delete" ];
 then
