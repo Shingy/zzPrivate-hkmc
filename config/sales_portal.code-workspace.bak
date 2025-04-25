@@ -16,10 +16,19 @@
 			"path": "hacc_1300"
 		},
 		{
-			"path": "kmx_2d00"
+			"path": "hma_1200"
+		},
+		{
+			"path": "hmm_1600"
 		},
 		{
 			"path": "kca_2c00"
+		},
+		{
+			"path": "kmx_2d00"
+		},
+		{
+			"path": "kus_2b00"
 		}
 	],
 	"settings": {
