@@ -28,6 +28,7 @@ git update-index --no-assume-unchanged .cdsrc-private.json
 
 git update-index --no-assume-unchanged approuter-local/index.js
 git update-index --no-assume-unchanged approuter-local/default-env.json
+git update-index --no-assume-unchanged approuter-local/i18n/*
 
 
 -- sales_portal_admin
