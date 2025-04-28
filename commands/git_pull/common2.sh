@@ -1,5 +1,6 @@
 # in Workspace_2 :
-# ln -s ../zzPrivate/commands/git_pull/common2.sh zzgit_pull
+# ln -s ../zzPrivate/commands/git_pull/all_2nd.sh zzgit_pull
+# ./zzgit_pull
 
 echo -e "\nstart git_pull 2nd common projects\n"
 

@@ -1,0 +1,19 @@
+#HMM-QA
+#clientSecret=<< Existing password/certificate removed on export >>
+tokenServiceURLType=Dedicated
+subaccountid=d5281f97-20ba-4d9e-a9f9-22819ecce088
+clientId=sb-015f4eb1-b376-418a-927e-f6976a4bc1b5!b407305|sap-theming!b1757
+xsappname=015f4eb1-b376-418a-927e-f6976a4bc1b5!b407305|sap-theming!b1757
+sap.cloud.service=com.sap.ui.theming
+tokenServiceURL=https\://hmm-qa.authentication.us10.hana.ondemand.com/oauth/token
+WebIDEEnabled=true
+saasregistryappname=theming
+URL=https\://theming-runtime.cfapps.us10.hana.ondemand.com
+Name=theme
+Type=HTTP
+HTML5.DynamicDestination=true
+html5-apps-repo={"app_host_id"\: "f29d3f1f-8133-41b3-99af-d3ff19596444"}
+verificationkey=-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsqj4umLFjzH+UWcbdWzv\nw38nqoZQ+HpMkH+DsdrAgDaf5Tv3yxeeGf9XquWuqZZAZ09tfQVhc/Y7p8lmPLgK\nw8Q1tJMRUpfYI2dW6DJ5FpDQ1vEm+63tDdRMqPjJXjV2JEnIMUXfZdD6QJddD9Zq\ntjAMDNKcaYwWwN7PUUbRMbuqSSKcR6TAE/2yph5kUxh+Jxht6ntpWJuPgg0pn+h/\n9vhvBCF+FkpCNGEJMLBdXAT6I9uEI6/RCCo7UX0i9ZY6wnD4O7bfxMZU+Mxn4DYR\nC+eijVMECyUvNWhj5o7iRdmqaXkNP8HpLJJZ4xdZMt0yNufaFG+0aDL+r9o4gbmd\n3wIDAQAB\n-----END PUBLIC KEY-----
+Authentication=OAuth2ClientCredentials
+ProxyType=Internet
+clientSecret=a7ad0ef4-6558-4066-b19f-0015739c5ad8$OtfdIezbk0hBxEHMPwrw4N3F3HNCrC2xil6pXGlQFeE=

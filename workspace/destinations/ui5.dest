@@ -1,0 +1,5 @@
+Type=HTTP
+Authentication=NoAuthentication
+ProxyType=Internet
+URL=https\://sapui5.hana.ondemand.com
+Name=ui5

@@ -1,0 +1,10 @@
+#HMM-PRD
+#Password=<< Existing password/certificate removed on export >>
+Type=HTTP
+HTML5.DynamicDestination=true
+User=220dc3ca-6893-493d-b3a7-8702be6e7bf7
+Authentication=BasicAuthentication
+ProxyType=Internet
+URL=https\://audxaeuo9.accounts.ondemand.com/
+Name=ias
+Password=O7?9GZRZZs=tt[V9T:pwn:0GaEf5.x]BL

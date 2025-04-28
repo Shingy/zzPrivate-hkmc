@@ -1,0 +1,15 @@
+#KCA-PRD
+#clientSecret=<< Existing password/certificate removed on export >>
+tokenServiceURLType=Dedicated
+clientId=sb-salesportal-kca-qa-org-KCA_QA\!t407290
+WebIDEEnabled=true
+tokenServiceURL=https\://kca-qa.authentication.us10.hana.ondemand.com/oauth/token
+URL=https\://kca-qa-org-kca-qa-sales-portal-backend-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/serverinit
+Name=i18n_sync
+WebIDEUsage=odata_gen
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=OAuth2ClientCredentials
+HTML5.Timeout=60000
+ProxyType=Internet
+clientSecret=/NmJeDc4YBe4SAuTfdastzu1e4w=

@@ -1,0 +1,15 @@
+#HMM-PRD
+#clientSecret=<< Existing password/certificate removed on export >>
+tokenServiceURLType=Dedicated
+clientId=sb-salesportal-hmm-org-HMM!t431523
+WebIDEEnabled=true
+tokenServiceURL=https\://hmm.authentication.us10.hana.ondemand.com/oauth/token
+URL=https\://hmm-org-hmm-sales-portal-backend-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/serverinit
+Name=i18n_sync
+WebIDEUsage=odata_gen
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=OAuth2ClientCredentials
+HTML5.Timeout=60000
+ProxyType=Internet
+clientSecret=20c16fa3-cc7d-4f53-aa56-a3c24f525637$tr3TykNTp4stQzoRyCxT3n3l0Nox1paH-ckwex6ETCU=

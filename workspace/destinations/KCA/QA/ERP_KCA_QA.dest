@@ -1,0 +1,18 @@
+#KCA-PRD
+#Password=<< Existing password/certificate removed on export >>
+User=IFSD05
+Description=Kia US QA
+WebIDEEnabled=true
+sap-client=200
+URL=http\://kur\:443
+Name=ERP
+WebIDEUsage=odata_abap,dev_abap
+Type=HTTP
+HTML5.DynamicDestination=true
+sap-language=English
+Authentication=BasicAuthentication
+CloudConnectorLocationId=KCA_QA
+HTML5.Timeout=60000
+ProxyType=OnPremise
+WebIDESystem=KUR
+Password=SystemIFSD#11!!

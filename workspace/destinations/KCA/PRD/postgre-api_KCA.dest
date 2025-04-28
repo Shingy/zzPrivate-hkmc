@@ -1,0 +1,11 @@
+#KCA-PRD
+forwardAuthToken=true
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=NoAuthentication
+HTML5.Timeout=60000
+WebIDEEnabled=true
+ProxyType=Internet
+URL=https\://kca-org-kca-sales-portal-backend-srv.cfapps.us10-001.hana.ondemand.com
+Name=postgre-api
+WebIDEUsage=odata_gen

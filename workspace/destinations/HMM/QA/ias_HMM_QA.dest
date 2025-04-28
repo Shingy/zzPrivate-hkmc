@@ -1,0 +1,10 @@
+#HMM-QA
+#Password=<< Existing password/certificate removed on export >>
+Type=HTTP
+HTML5.DynamicDestination=true
+User=f4a56d7c-4ec9-43e1-99bc-ce5fd3b4b94c
+Authentication=BasicAuthentication
+ProxyType=Internet
+URL=https\://a1gb6gy01.accounts.ondemand.com/
+Name=ias
+Password=GM]RvQZ_uaPQB8wVWrbYcrh6fChXEG_Y

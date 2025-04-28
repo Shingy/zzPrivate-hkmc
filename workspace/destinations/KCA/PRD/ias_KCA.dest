@@ -1,0 +1,10 @@
+#KCA-PRD
+#Password=<< Existing password/certificate removed on export >>
+Type=HTTP
+HTML5.DynamicDestination=true
+User=b2728193-3164-413b-99d6-cf7e10396d7b
+Authentication=BasicAuthentication
+ProxyType=Internet
+URL=https\://afk4n9tss.accounts.ondemand.com/
+Name=ias
+Password=0Qba2auqS]DV7axWf?qdowSbMU]PjNmJ84v

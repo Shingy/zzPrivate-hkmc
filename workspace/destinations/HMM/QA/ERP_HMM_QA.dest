@@ -1,0 +1,17 @@
+#HMM-QA
+#Password=<< Existing password/certificate removed on export >>
+Description=Hyundai US
+User=IFSD08
+WebIDEEnabled=true
+sap-client=200
+URL=http\://hur\:443
+Name=ERP
+WebIDEUsage=odata_abap,dev_abap
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=BasicAuthentication
+CloudConnectorLocationId=HMM_QA
+HTML5.Timeout=1800000
+ProxyType=OnPremise
+WebIDESystem=HUR
+Password=SystemIFSD#11!!

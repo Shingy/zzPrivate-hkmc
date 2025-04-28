@@ -1,0 +1,10 @@
+#KCA-QA
+#Password=<< Existing password/certificate removed on export >>
+Type=HTTP
+HTML5.DynamicDestination=true
+User=86b86831-b17b-4e1c-944d-6da47b66dd9a
+Authentication=BasicAuthentication
+ProxyType=Internet
+URL=https\://acrpjbeuo.accounts.ondemand.com/
+Name=ias
+Password=OjJza[hU:-T50mf2Rlb2wHV4[5r3nX2y1
