@@ -1,12 +1,13 @@
-*) extra command list
+==============================
+※ change branch
+==============================
 git checkout -b dev origin/dev
 #git config --global http.sslVerify false
 
 
-
-=============
-3rd companies
-=============
+==============================
+※ 3rd companies
+==============================
 *) hma_1200
 git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/admin_1200.git
 git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/admin_internal_1200.git

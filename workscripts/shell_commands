@@ -1,11 +1,41 @@
-*) delete node_modules
+==============================
+※ delete node_modules
+==============================
 find sales_portal*/* -name "node_modules" -exec rm -Rf {} +
 find . -name "node_modules" -exec rm -Rf {} +
 
 
-*) create link : zzcf_login, zzdb_conn, zzrun in Workspace_2
+==============================
+※ create link : zzcf_login, zzdb_conn, zzrun in Workspace_2
+==============================
 rm zzcf_login zzdb_conn zzrun
 ln -s ../zzPrivate/commands/cf_login.sh zzcf_login
 ln -s ../zzPrivate/commands/db_conn.sh zzdb_conn
 ln -s ../zzPrivate/commands/run.sh zzrun
+
+
+==============================
+※ git pull links
+==============================
+- in Workspace_2
+ln -s ../zzPrivate/commands/git_pull/all_2nd.sh zzgit_pull
+  -> zzgit_pull      : 2nd common only
+  -> zzgit_pull all
+  -> zzgit_pull kca
+  -> zzgit_pull hmm
+
+- in hmm_1600
+
+
+
+- in kca_2c00
+
+
+
+
+
+==============================
+※ 사용포트 확인
+==============================
+netstat -lpnt 5000
 

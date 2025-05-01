@@ -1,0 +1,20 @@
+==============================
+※ cf target
+==============================
+cf target -o kus-dev-org -s KUS_TEMP
+cf target -o kca-qa-org -s KCA_QA
+cf target -o hmm-qa-org -s HMM_QA
+cf target -o hmm-dev-org -s HMM_DEV
+
+
+
+==============================
+※ db 서비스 연결
+==============================
+cf share-service AMERICA_H_DEVDB -o hmm-qa-org -s HMM_QA
+
+
+/odata/v4/common/GetUserForInitApprouter
+cf share-service AMERICA_K_DEVDB -o america-kia-orgcomdev -s Common
+
+
