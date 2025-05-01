@@ -34,8 +34,10 @@ then
             fi
         fi
 
-        ./company/kca.sh
+        ./company/hacc.sh
+        ./company/kmx.sh
         ./company/hmm.sh
+        ./company/kca.sh
 
     elif [ "${1,,}" == "hacc" ];
     then
