@@ -37,9 +37,14 @@ then
         ./company/kca.sh
         ./company/hmm.sh
 
-    # elif [ "${1,,}" == "hacc" ];
-    # then
-    #     echo ${1,,}
+    elif [ "${1,,}" == "hacc" ];
+    then
+        ./company/hacc.sh
+        if [ $? -ne 0 ];
+        then
+            cd /home/user/projects/zzPrivate/commands/git_pull
+            ./company/hacc.sh
+        fi
     # elif [ "${1,,}" == "hma" ];
     # then
     #     echo ${1,,}
@@ -59,9 +64,14 @@ then
             cd /home/user/projects/zzPrivate/commands/git_pull
             ./company/kca.sh
         fi
-    # elif [ "${1,,}" == "kmx" ];
-    # then
-    #     echo ${1,,}
+    elif [ "${1,,}" == "kmx" ];
+    then
+        ./company/kmx.sh
+        if [ $? -ne 0 ];
+        then
+            cd /home/user/projects/zzPrivate/commands/git_pull
+            ./company/kmx.sh
+        fi
     # elif [ "${1,,}" == "kus" ];
     # then
     #     echo ${1,,}
