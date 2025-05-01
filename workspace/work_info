@@ -1,0 +1,171 @@
+※ SAP Info
+==============================
+※ 
+==============================
+
+H_AM_ERP ---> Hyundai_US_QA
+ERP Destination ---> 통일 ERP
+============================
+SAP ID
+GICSSD124
+TFTMember#99 ---> Qwert12#$%
+============================
+ERP IF account
+IFSD02 / SystemIFSD#11!!
+
+IFSD05 : KCA
+   dealer code prefix : B06VA
+IFSD06 : KUS
+IFSD07 : HMA/GMA
+IFSD08 : HMM
+
+
+
+==============================
+※ 
+==============================
+* Autoway
+  - https://autoway.hyundai.net/
+  - ID : 9485147@ict-companion.com
+  - PW : nAN?_0x8
+
+
+
+==============================
+※ 
+==============================
+* 공통으로 사용하는 Dev pwd :
+  - Q!w2e3r4t5
+
+
+
+==============================
+※ 
+==============================
+* IAS :
+
+  - 현대 개발 IAS : https://a9kt3czxh.accounts.ondemand.com/admin
+                  Client ID: c70aa6ff-93c6-4e83-8ea5-74d787e2325f
+                  Client Secret: qYib_BiZ/Tx7UlLZFbWl5HB1QtrBvQ
+
+  - 기아 개발 IAS : https://apqtvxfeo.accounts.ondemand.com/admin
+                  Client ID: 32813939-ed73-4cc6-890a-65940295ef73
+                  Client Secret: N?m3NfjaDb2K_WPwJ3CSx@O05H]hgAElZ
+
+                  7e583804-27ae-4556-8673-e82f821ac3fc
+                  ?
+
+                  (KUS 미주 개발 IAS)
+                  Client ID : 99797021-056c-4cd1-bfd0-0e8401c8899a 
+                  Client Secret: s.YL[JoULyom-[2?V6neHrchKGnjk0IO  
+
+
+  - HMM QA IAS: https://a1gb6gy01.accounts.ondemand.com/admin
+                Client ID: f4a56d7c-4ec9-43e1-99bc-ce5fd3b4b94c
+                Client Secret: GM]RvQZ_uaPQB8wVWrbYcrh6fChXEG_Y
+
+  - KCA QA IAS: https://acrpjbeuo.accounts.ondemand.com/admin
+                Client ID: 86b86831-b17b-4e1c-944d-6da47b66dd9a
+                Client Secret: OjJza[hU:-T50mf2Rlb2wHV4[5r3nX2y1
+
+
+  - HMM PRD IAS : https://audxaeuo9.accounts.ondemand.com/admin
+                Client ID: 220dc3ca-6893-493d-b3a7-8702be6e7bf7
+                Client Secret: O7?9GZRZZs=tt[V9T:pwn:0GaEf5.x]BL
+
+  - KCA PRD IAS : https://afk4n9tss.accounts.ondemand.com/admin
+                Client ID: b2728193-3164-413b-99d6-cf7e10396d7b
+                Client Secret: 0Qba2auqS]DV7axWf?qdowSbMU]PjNmJ84v
+
+
+
+==============================
+※ 
+==============================
+* DMS
+
+현대 개발 DMS
+Token Service Url: https://america-hyundai-common-dev.authentication.us10.hana.ondemand.com/oauth/token
+clientid: sb-af2502c9-7911-486e-abb0-90a5da420f81!b238767|sdm-di-DocumentManagement-sdm_integration!b6332
+clientsecret: WQcnigmQotS/XqR9SFOKurgRx1Y=
+
+
+https://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZAMERICA_H_DEVDMS_F/root/Sales Portal/HMM
+https://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZAMERICA_H_DEVDMS_F/root/Sales Portal/HMA
+
+https://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZAMERICA_H_DEVDMS_F/root/Sales Portal/KMX
+https://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZAMERICA_H_DEVDMS_F/root/Sales Portal/KCA
+
+
+
+기아 개발 DMS
+Token Service Url:  https://america-kia-common-dev.authentication.us10.hana.ondemand.com/oauth/token
+clientid: sb-c2c1254b-6838-41db-ac3c-a373855f9d76!b276055|sdm-di-DocumentManagement-sdm_integration!b6332
+clientsecret: TyCKahSl+H2DtMvWr6iw+QkUivw=
+
+
+
+==============================
+※ 
+==============================
+* PRD Info
+
+HACC PRD URL
+https://hacc-org-hacc-salesportal.cfapps.us10-001.hana.ondemand.com
+https://salesportal-hacc.am.hyundai-corp.io
+
+9485147 / +O2iWnf4E
+
+hnyu / +O2iWnf4E->Hyundai123!->Summer2025!
+
+
+
+==============================
+※ KDealer+
+==============================
+https://www.kdealer.com/
+shingylee / Qwert12#$%
+- Favorite game : Tetris
+
+
+
+==============================
+※ TEAMS Documents & 회의 공간
+==============================
+teams 계정
+e_istn271@hkmccloud.onmicrosoft.covm
+
+pc backup 문서
+
+https://hkmccloud.sharepoint.com/sites/N_ERP/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=mcdQqK&CID=9cdb7881%2Db428%2D47da%2Da9c3%2D2d21250f1ad6&FolderCTID=0x01200080F1DBAD2090EC40BC3FCACDD492FA21&id=%2Fsites%2FN%5FERP%2FShared%20Documents%2F%E2%98%85Working%20%EB%AC%B8%EC%84%9C%28%EB%AA%A8%EB%93%88%EB%B3%84%29%2F%EA%B0%9C%EB%B0%9C%EA%B3%B5%ED%86%B5%2FBTP%2FSales%20Portal%20%EA%B3%B5%ED%86%B5%EC%98%81%EC%97%AD%20%EC%9D%B8%EC%88%98%EC%9D%B8%EA%B3%84%2Fshingy%5Fbackup&viewid=1b1439e7%2D3a3b%2D42bc%2D925b%2Df5fabd991dde
+
+
+teams 회의
+- 448 557 665 942
+  H7Sr6n59
+
+- 431 416 845 204
+  Vo9GW3Nc
+
+
+
+==============================
+※ EAI Info for AS400
+==============================
+AS400 EAI 제공
+==============
+Auth URL : https://kca-dev.authentication.us10.hana.ondemand.com/oauth/token
+API URL : https://kca-dev-org-kca-dev-sales-portal-backend-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/sso/syncAS400User
+Client ID : sb-salesportal-kca-dev-org-KCA_DEV!t362218
+Client Secret : aW3rn43eQmFvX+EWoCN7WFdxuR8=
+
+
+Auth URL : https://kca-qa.authentication.us10.hana.ondemand.com/oauth/token
+API URL : https://kca-qa-org-kca-qa-sales-portal-backend-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/sso/syncAS400User
+Client ID : sb-salesportal-kca-qa-org-KCA_QA!t407290
+Client Secret : /NmJeDc4YBe4SAuTfdastzu1e4w=
+
+
+
+
+
