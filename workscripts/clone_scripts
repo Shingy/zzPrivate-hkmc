@@ -8,6 +8,20 @@ git checkout -b dev origin/dev
 ==============================
 ※ 3rd companies
 ==============================
+*) Common_3
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-admin.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-api-proxy.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-core.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-devenv.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-home.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-i18n.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-lib.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-splib.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-support.git
+git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common_3/salesportal-template.git
+
+
 *) hma_1200
 git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/admin_1200.git
 git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/hma/admin_internal_1200.git
