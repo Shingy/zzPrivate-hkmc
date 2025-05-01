@@ -11,16 +11,27 @@ then
         if [ "$2" == "1" ];
         then
             ./common1.sh
+        elif [ "$2" == "2" ];
+        then
+            ./common2.sh
+        else
+            ./common1.sh
+            ./common2.sh
         fi
-        ./common2.sh
+
         if [ $? -ne 0 ];
         then
             cd /home/user/projects/zzPrivate/commands/git_pull
             if [ "$2" == "1" ];
             then
                 ./common1.sh
+            elif [ "$2" == "2" ];
+            then
+                ./common2.sh
+            else
+                ./common1.sh
+                ./common2.sh
             fi
-            ./common2.sh
         fi
 
         ./company/kca.sh
@@ -61,15 +72,25 @@ else
     if [ "$2" == "1" ];
     then
         ./common1.sh
+    elif [ "$2" == "2" ];
+    then
+        ./common2.sh
+    else
+        ./common1.sh
+        ./common2.sh
     fi
-    ./common2.sh
     if [ $? -ne 0 ];
     then
         cd /home/user/projects/zzPrivate/commands/git_pull
         if [ "$2" == "1" ];
         then
             ./common1.sh
+        elif [ "$2" == "2" ];
+        then
+            ./common2.sh
+        else
+            ./common1.sh
+            ./common2.sh
         fi
-        ./common2.sh
     fi
 fi

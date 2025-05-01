@@ -49,13 +49,6 @@ then
     git pull
     echo -e "\nend of git pull sales_portal_collaboration\n"
 
-    echo -e "====================================\n"
-
-    echo -e "start git pull sales_portal_home\n"
-    cd ../sales_portal_home
-    git pull
-    echo -e "\nend of git pull sales_portal_home\n"
-
     if [ "$1" == "1" ];
     then
         echo -e "====================================\n"
@@ -64,6 +57,16 @@ then
         cd ../ias_usersync_job
         git pull
         echo -e "\nend of git pull ias_usersync_job\n"
+    fi
+
+    if [ "$1" == "2" ];
+    then
+        echo -e "====================================\n"
+
+        echo -e "start git pull sales_portal_home\n"
+        cd ../sales_portal_home
+        git pull
+        echo -e "\nend of git pull sales_portal_home\n"
     fi
 
     echo -e "====================================\n"
