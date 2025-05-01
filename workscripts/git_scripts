@@ -1,3 +1,10 @@
+==============================
+※ change branch
+==============================
+git checkout -b dev origin/dev
+#git config --global http.sslVerify false
+
+
 *) assume-unchange & no-assume-unchanged
 # git update-index --assume-unchanged 파일경로
 # git update-index --no-assume-unchanged 파일경로
