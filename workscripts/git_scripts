@@ -5,7 +5,9 @@ git checkout -b dev origin/dev
 #git config --global http.sslVerify false
 
 
-*) assume-unchange & no-assume-unchanged
+=========================================
+※ assume-unchange & no-assume-unchanged
+=========================================
 # git update-index --assume-unchanged 파일경로
 # git update-index --no-assume-unchanged 파일경로
 
@@ -32,6 +34,7 @@ git update-index --assume-unchanged approuter-local/i18n/*
 
 git update-index --no-assume-unchanged .gitignore
 git update-index --no-assume-unchanged .cdsrc-private.json
+git update-index --no-assume-unchanged mta.yaml
 
 git update-index --no-assume-unchanged approuter-local/index.js
 git update-index --no-assume-unchanged approuter-local/default-env.json
@@ -66,7 +69,10 @@ git update-index --assume-unchanged .gitignore
 
 
 
-*) git gc --prune=now --aggressive
-   find . -maxdepth 1 -type d -exec bash -c 'cd "$1" && echo "Processing $1..." && git gc --prune=now --aggressive' _ {} \;
-※ git 저장소의 크기를 줄이고 성능을 향상하는 명령어
+=========================================
+※ git gc
+   git 저장소의 크기를 줄이고 성능을 향상하는 명령어
+=========================================
+1) git gc --prune=now --aggressive
+2) find . -maxdepth 1 -type d -exec bash -c 'cd "$1" && echo "Processing $1..." && git gc --prune=now --aggressive' _ {} \;
 
