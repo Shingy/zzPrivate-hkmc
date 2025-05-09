@@ -1,40 +1,12 @@
-# rm zzdeploy
-# ln -s ../../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_home.sh zzdeploy
+cd /home/user/projects/zzPrivate/workscripts/deploy_scripts
 
-cd /home/user/projects/Workspace_2/sales_portal_home
-
-../zzcf_login $1 $2
+../../commands/cf_login.sh $1 $2
 
 ZZ_CURR_SPACE=`cf target|grep space`
-
-ZEXIST_NODE=`find ./* -name "node_modules"`
-if [ "$ZEXIST_NODE" == "" ];
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
 then
-    echo -e "\nnpm install\n"
-    npm i
-else
-  echo -e "\nnode_modules exist\n"
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
 fi
 
-npm run $1-home
-
-echo -e "\nnpm build\n"
-npm run build
-
-echo -e "\nstart deploy\n"
-npm run deploy
-echo -e "\nend of deploy : ${ZZ_CURR_SPACE:16}\n"
-
-if [ "${2,,}" == "del" ] || [ "${2,,}" == "delete" ] || [ "${3,,}" == "del" ] || [ "${3,,}" == "delete" ];
-then
-    echo -e "start delete node_modules\n"
-    find ./* -name "node_modules" -exec rm -Rf {} +
-    echo -e "end of delete node_modules\n"
-fi
-
-ZCHECK_MTA=`find ./* -name "Makefile_*.mta"`
-if [ "$ZCHECK_MTA" != "" ];
-then
-  echo Delete Makefile_*.mta files
-  rm Makefile_*.mta
-fi
+./__deploy_sales_portal.sh $1 $2 > /home/user/projects/Workspace_2/sales_portal_home/zzdeploy_log/_home_${ZZ_CURR_SPACE:16}_`date -d "+9 hours" +%y%m%d%H%M%S`.log
