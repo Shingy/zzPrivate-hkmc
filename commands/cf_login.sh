@@ -24,10 +24,10 @@ then
         ZZ_TARGET="Design"
     fi
 else
-    if [ "$1" == "hacc" ];
+    if [ "${1,,}" == "hacc" ];
     then
         ZZ_TARGET="DEV_CICDTEST"
-    elif [ "$1" == "kmx" ];
+    elif [ "${1,,}" == "kmx" ];
     then
         ZZ_TARGET="DEV"
     else
@@ -38,14 +38,14 @@ fi
 
 if [ "$1" != "" ];
 then
-    if [ "$1" == "hacc" ];
+    if [ "${1,,}" == "hacc" ];
     then
         cf login -a $ZZ_API_ENDPOINT -u $ZZ_EMAIL -p $ZZ_PW -o $1-orgdev -s "${ZZ_SPACE_PRIFIX^^}"_$ZZ_TARGET
         #cf login -a https://api.cf.us10-001.hana.ondemand.com -u 9485147@ict-companion.com -p Qwert12#$% -o hacc-orgdev -s HACC_DEV
-    elif [ "$1" == "kmx" ];
+    elif [ "${1,,}" == "kmx" ];
     then
        cf login -a $ZZ_API_ENDPOINT -u $ZZ_EMAIL -p $ZZ_PW -o $1-orgsalesdev -s "${ZZ_SPACE_PRIFIX^^}"_Sales_$ZZ_TARGET
-    elif [ "$1" == "hma" ] || [ "$1" == "hmm" ] || [ "$1" == "kca" ] || [ "$1" == "kus" ];
+    elif [ "${1,,}" == "hma" ] || [ "${1,,}" == "hmm" ] || [ "${1,,}" == "kca" ] || [ "${1,,}" == "kus" ];
     then
         ZZ_CURR_SPACE=`cf target|grep space`
         ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)

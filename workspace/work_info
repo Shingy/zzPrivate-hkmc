@@ -166,6 +166,13 @@ Client ID : sb-salesportal-kca-qa-org-KCA_QA!t407290
 Client Secret : /NmJeDc4YBe4SAuTfdastzu1e4w=
 
 
+Auth URL : https://kca.authentication.us10.hana.ondemand.com/oauth/token
+API URL : https://kca-org-kca-sales-portal-backend-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/sso/syncAS400User
+Client ID : sb-salesportal-kca-org-KCA!t433041
+Client Secret : a4c9e03c-1992-4a0d-8876-441284a89be0$aJndQr47tQZ5ZvGMSqjAueq0DKfdbBR2_jrYgHyVN-g=
 
 
+
+참조) https://api.sap.com/api/IdDS_SCIM
+    Identity Directory API
 

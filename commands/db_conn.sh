@@ -1,5 +1,5 @@
 TARGET="$2"
-if [ "$1" == "hyundai" ] || [ "$1" == "h" ];
+if [ "${1,,}" == "hyundai" ] || [ "${1,,}" == "h" ];
 then
     if [ "${TARGET^^}" == "PRD" ];
     then
@@ -9,7 +9,7 @@ then
         cf login -a https://api.cf.us10-001.hana.ondemand.com -u 9485147@ict-companion.com -p Qwert12#$% -o america-hyundai-orgdev -s "Common DEV"
         cf ssh -L 63306:postgres-710b4ab9-204b-4ba9-8728-13d1de4b2bab.cqryblsdrbcs.us-east-1.rds.amazonaws.com:6489 postgres-ssh-app
     fi
-elif [ "$1" == "kia" ] || [ "$1" == "k" ];
+elif [ "${1,,}" == "kia" ] || [ "${1,,}" == "k" ];
 then
     if [ "${TARGET^^}" == "PRD" ];
     then

@@ -27,18 +27,18 @@ else
   echo -e "\nnode_modules exist\n"
 fi
 
-if [ "$2" == "${ZZ_IS_SETTING_MODE}" ] || [ "$3" == "${ZZ_IS_SETTING_MODE}" ];
+if [ "${2,,}" == "${ZZ_IS_SETTING_MODE}" ] || [ "${3,,}" == "${ZZ_IS_SETTING_MODE}" ];
 then
     echo -e "\nstart $1-${ZZ_CURR_TARGET,,}-setting\n"
-    npm run $1-${ZZ_CURR_TARGET,,}-setting
-    echo -e "\nend of $1-${ZZ_CURR_TARGET,,}-setting\n"
+    npm run ${1,,}-${ZZ_CURR_TARGET,,}-setting
+    echo -e "\nend of ${1,,}-${ZZ_CURR_TARGET,,}-setting\n"
 else
     echo -e "\nnpm build\n"
     if [ "${2,,}" != "prd" ];
     then
-        npm run build:$1-${ZZ_CURR_TARGET,,}
+        npm run build:${1,,}-${ZZ_CURR_TARGET,,}
     else
-        npm run build:$1-${2,,}
+        npm run build:${1,,}-${2,,}
     fi
 
     echo -e "\nstart deploy\n"

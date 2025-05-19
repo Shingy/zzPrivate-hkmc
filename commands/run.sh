@@ -24,9 +24,9 @@ fi
 
 if [ "$2" != "" ];
 then
-    npm run $1-$2-setting
+    npm run ${1,,}-${2,,}-setting
 else
-    npm run $1-temp-setting
+    npm run ${1,,}-temp-setting
 fi
 
 echo -e "start local approuter : ${ZZ_CURR_SPACE:16}\n"

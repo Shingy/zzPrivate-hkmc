@@ -16,7 +16,7 @@ else
   echo -e "\nnode_modules exist\n"
 fi
 
-npm run $1-home
+npm run ${1,,}-home
 
 echo -e "\nnpm build\n"
 npm run build

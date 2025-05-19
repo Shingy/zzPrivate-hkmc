@@ -26,8 +26,8 @@ then
     echo -e "\n$1-${ZZ_CURR_TARGET,,}-setting\n"
     npm run $1-${ZZ_CURR_TARGET,,}-setting
 else
-    echo -e "\n$1-${2,,}-setting\n"
-    npm run $1-${2,,}-setting
+    echo -e "\n${1,,}-${2,,}-setting\n"
+    npm run ${1,,}-${2,,}-setting
 fi
 
 echo -e "\ncds build\n"

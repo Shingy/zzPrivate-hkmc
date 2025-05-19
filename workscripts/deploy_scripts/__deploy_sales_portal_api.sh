@@ -21,7 +21,7 @@ fi
 echo -e "\nnpm build\n"
 npm run build:mta
 
-if [ "$2" != "${ZZ_IS_SETTING_MODE}" ] || ([ "$3" != "" ] && [ "$3" != "${ZZ_IS_SETTING_MODE}" ]);
+if [ "${2,,}" != "${ZZ_IS_SETTING_MODE}" ] || ([ "$3" != "" ] && [ "${3,,}" != "${ZZ_IS_SETTING_MODE}" ]);
 then
     echo -e "\nstart deploy\n"
     npm run deploy

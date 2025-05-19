@@ -9,4 +9,4 @@ then
     ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
 fi
 
-./__deploy_sales_portal.sh $1 $2 $3 > /home/user/projects/Workspace_2/sales_portal_home/zzdeploy_log/_home_${ZZ_CURR_SPACE:16}_`date -d "+9 hours" +%y%m%d%H%M%S`.log
+./__deploy_sales_portal_home.sh $1 $2 $3 > /home/user/projects/Workspace_2/sales_portal_home/zzdeploy_log/_home_${ZZ_CURR_SPACE:16}_`date -d "+9 hours" +%y%m%d%H%M%S`.log
