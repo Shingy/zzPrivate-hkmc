@@ -3,6 +3,8 @@
 ==============================
 find sales_portal*/* -name "node_modules" -exec rm -Rf {} +
 find . -name "node_modules" -exec rm -Rf {} +
+find /home/user/projects/Workspace_2/sales_portal/zzdeploy_log -name "_${ZZ_CURR_SPACE:16}_*.log" -mtime +2 -delete
+#==> 생성된지 2일이 넘은 파일 삭제 
 
 
 ==============================

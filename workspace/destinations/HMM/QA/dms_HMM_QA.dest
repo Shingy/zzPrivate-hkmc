@@ -1,0 +1,15 @@
+#HMM-QA
+#clientSecret=<< Existing password/certificate removed on export >>
+tokenServiceURLType=Dedicated
+clientId=sb-af2502c9-7911-486e-abb0-90a5da420f81\!b238767|sdm-di-DocumentManagement-sdm_integration\!b6332
+WebIDEEnabled=true
+tokenServiceURL=https\://america-hyundai-common-dev.authentication.us10.hana.ondemand.com/oauth/token
+URL=https\://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZAMERICA_H_DEVDMS_F/root/Sales Portal/HMM
+Name=dms
+WebIDEUsage=odata_gen
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=OAuth2ClientCredentials
+HTML5.Timeout=60000
+ProxyType=Internet
+clientSecret=WQcnigmQotS/XqR9SFOKurgRx1Y=

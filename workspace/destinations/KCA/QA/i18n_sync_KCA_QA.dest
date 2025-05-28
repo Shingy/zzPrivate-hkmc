@@ -1,4 +1,4 @@
-#KCA-PRD
+#KCA-QA
 #clientSecret=<< Existing password/certificate removed on export >>
 tokenServiceURLType=Dedicated
 clientId=sb-salesportal-kca-qa-org-KCA_QA\!t407290

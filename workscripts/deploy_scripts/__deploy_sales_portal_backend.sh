@@ -21,6 +21,8 @@ else
   echo -e "\nnode_modules exist\n"
 fi
 
+rm mta_archives/*.mtar
+
 echo -e "\nnpm build\n"
 if [ "${2,,}" != "prd" ];
 then

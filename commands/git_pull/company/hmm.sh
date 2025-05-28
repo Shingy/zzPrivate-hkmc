@@ -4,17 +4,18 @@
 
 echo -e "\nstart git_pull hmm_1600 projects\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
-echo -e "start git pull admin_1600\n"
-cd /home/user/projects/hmm_1600/admin_1600
-git pull
-echo -e "\nend of git pull admin_1600\n"
+# echo -e "start git pull admin_1600\n"
+# cd /home/user/projects/hmm_1600/admin_1600
+# git pull
+# echo -e "\nend of git pull admin_1600\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
 echo -e "start git pull common_1600\n"
-cd ../common_1600
+# cd ../common_1600
+cd /home/user/projects/hmm_1600/common_1600
 git pull
 echo -e "\nend of git pull common_1600\n"
 
@@ -32,14 +33,14 @@ cd ../dealership_1600
 git pull
 echo -e "\nend of git pull dealership_1600\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
-echo -e "start git pull home_1600\n"
-cd ../home_1600
-git pull
-echo -e "\nend of git pull home_1600\n"
+# echo -e "start git pull home_1600\n"
+# cd ../home_1600
+# git pull
+# echo -e "\nend of git pull home_1600\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
 echo -e "start git pull incentives_1600\n"
 cd ../incentives_1600
@@ -60,19 +61,19 @@ cd ../order_1600
 git pull
 echo -e "\nend of git pull order_1600\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
-echo -e "start git pull parts_1600\n"
-cd ../parts_1600
-git pull
-echo -e "\nend of git pull parts_1600\n"
+# echo -e "start git pull parts_1600\n"
+# cd ../parts_1600
+# git pull
+# echo -e "\nend of git pull parts_1600\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
-echo -e "start git pull report_1600\n"
-cd ../report_1600
-git pull
-echo -e "\nend of git pull report_1600\n"
+# echo -e "start git pull report_1600\n"
+# cd ../report_1600
+# git pull
+# echo -e "\nend of git pull report_1600\n"
 
 echo -e "====================================\n"
 

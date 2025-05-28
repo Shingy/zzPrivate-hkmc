@@ -1,0 +1,14 @@
+#KCA-PRD
+#clientSecret=<< Existing password/certificate removed on export >>
+tokenServiceURLType=Dedicated
+clientId=sb-70129ab9-37d5-4758-bde0-756e780ed67d\!b284856|sdm-di-DocumentManagement-sdm_integration\!b6332
+WebIDEEnabled=true
+tokenServiceURL=https\://america-kia-common-prd.authentication.us10.hana.ondemand.com/oauth/token
+URL=https\://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZKUP/root/KCA
+Name=dms
+WebIDEUsage=odata_gen
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=OAuth2ClientCredentials
+HTML5.Timeout=60000
+ProxyType=Internet

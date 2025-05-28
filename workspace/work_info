@@ -47,10 +47,12 @@ IFSD08 : HMM
   - 현대 개발 IAS : https://a9kt3czxh.accounts.ondemand.com/admin
                   Client ID: c70aa6ff-93c6-4e83-8ea5-74d787e2325f
                   Client Secret: qYib_BiZ/Tx7UlLZFbWl5HB1QtrBvQ
+                -- logout client_id : e351ab1b-7a42-4f9d-b4f7-f3c010382fe5
 
   - 기아 개발 IAS : https://apqtvxfeo.accounts.ondemand.com/admin
                   Client ID: 32813939-ed73-4cc6-890a-65940295ef73
                   Client Secret: N?m3NfjaDb2K_WPwJ3CSx@O05H]hgAElZ
+                -- logout client_id : dce0698d-abbd-4494-a1e4-6335d7c49b02
 
                   7e583804-27ae-4556-8673-e82f821ac3fc
                   ?
@@ -63,19 +65,24 @@ IFSD08 : HMM
   - HMM QA IAS: https://a1gb6gy01.accounts.ondemand.com/admin
                 Client ID: f4a56d7c-4ec9-43e1-99bc-ce5fd3b4b94c
                 Client Secret: GM]RvQZ_uaPQB8wVWrbYcrh6fChXEG_Y
+                -- logout client_id : 88edf1ec-e6cf-4641-bf85-1a165b8c9ef0
 
   - KCA QA IAS: https://acrpjbeuo.accounts.ondemand.com/admin
                 Client ID: 86b86831-b17b-4e1c-944d-6da47b66dd9a
                 Client Secret: OjJza[hU:-T50mf2Rlb2wHV4[5r3nX2y1
+                -- logout client_id : 82c20cbd-56e6-48c6-b1bc-760055479ded
 
 
   - HMM PRD IAS : https://audxaeuo9.accounts.ondemand.com/admin
                 Client ID: 220dc3ca-6893-493d-b3a7-8702be6e7bf7
                 Client Secret: O7?9GZRZZs=tt[V9T:pwn:0GaEf5.x]BL
+                -- logout client_id : 51c1860a-7dc2-428f-acb8-f31e229aad68
 
   - KCA PRD IAS : https://afk4n9tss.accounts.ondemand.com/admin
                 Client ID: b2728193-3164-413b-99d6-cf7e10396d7b
                 Client Secret: 0Qba2auqS]DV7axWf?qdowSbMU]PjNmJ84v
+                -- logout client_id : 4d4f4508-ea37-40bf-882e-dd93c2fea799
+
 
 
 
@@ -98,7 +105,7 @@ https://api-sdm-di.cfapps.us10.hana.ondemand.com/browser/ZAMERICA_H_DEVDMS_F/roo
 
 
 
-기아 개발 DMS
+기아 개발 DMS(--> QA)
 Token Service Url:  https://america-kia-common-dev.authentication.us10.hana.ondemand.com/oauth/token
 clientid: sb-c2c1254b-6838-41db-ac3c-a373855f9d76!b276055|sdm-di-DocumentManagement-sdm_integration!b6332
 clientsecret: TyCKahSl+H2DtMvWr6iw+QkUivw=

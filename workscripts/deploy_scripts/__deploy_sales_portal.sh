@@ -33,6 +33,8 @@ then
     npm run ${1,,}-${ZZ_CURR_TARGET,,}-setting
     echo -e "\nend of ${1,,}-${ZZ_CURR_TARGET,,}-setting\n"
 else
+    rm mta_archives/*.mtar
+
     echo -e "\nnpm build\n"
     if [ "${2,,}" != "prd" ];
     then

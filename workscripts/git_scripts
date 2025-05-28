@@ -28,9 +28,12 @@ git update-index --assume-unchanged app/main/webapp/controller/Home.controller.j
 git update-index --assume-unchanged app/main/webapp/view/Home.view.xml
 
 git update-index --assume-unchanged approuter/xs-app.json
+git update-index --assume-unchanged approuter/html/logout_workaround.html
+
 git update-index --assume-unchanged approuter-local/xs-app.json
 git update-index --assume-unchanged approuter-local/default-env.json
 git update-index --assume-unchanged approuter-local/i18n/*
+
 
 git update-index --no-assume-unchanged .gitignore
 git update-index --no-assume-unchanged .cdsrc-private.json

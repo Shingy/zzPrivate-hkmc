@@ -29,17 +29,17 @@ echo -e "end of deploy sales_portal_api\n"
 echo -e "start deploy sales_portal_backend\n"
 
 cd ../sales_portal_backend
-# ./zzcds_deploy $1 $2 $3
+./zzcds_deploy $1 $2 $3
 ./zzdeploy $1 $2 $3
 
 echo -e "end of deploy sales_portal_backend\n"
 
-echo -e "start deploy sales_portal_collaboration\n"
+# echo -e "start deploy sales_portal_collaboration\n"
 
-cd ../sales_portal_collaboration
-./zzdeploy $1 $2 $3
+# cd ../sales_portal_collaboration
+# ./zzdeploy $1 $2 $3
 
-echo -e "end of deploy sales_portal_collaboration\n"
+# echo -e "end of deploy sales_portal_collaboration\n"
 
 echo -e "start deploy sales_portal_home\n"
 

@@ -18,6 +18,8 @@ fi
 
 npm run ${1,,}-home
 
+rm mta_archives/*.mtar
+
 echo -e "\nnpm build\n"
 npm run build
 
