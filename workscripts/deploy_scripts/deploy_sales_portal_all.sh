@@ -30,21 +30,39 @@ echo -e "\n${RED__}start deploy sales_portal${NOCOLOR}\n"
 cd sales_portal
 ./zzdeploy $1 $2 $3
 
-echo -e "\n${RED__}end of deploy sales_portal\n"
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
+then
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+echo -e "\n${RED__}end of deploy sales_portal on ${ZZ_CURR_TARGET}\n"
 
 echo -e "start deploy sales_portal_admin${NOCOLOR}\n"
 
 cd ../sales_portal_admin
 ./zzdeploy $1 $2 $3
 
-echo -e "\n${RED__}end of deploy sales_portal_admin\n"
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
+then
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+echo -e "\n${RED__}end of deploy sales_portal_admin on ${ZZ_CURR_TARGET}\n"
 
 echo -e "start deploy sales_portal_api${NOCOLOR}\n"
 
 cd ../sales_portal_api
 ./zzdeploy $1 $2 $3
 
-echo -e "\n${RED__}end of deploy sales_portal_api\n"
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
+then
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+echo -e "\n${RED__}end of deploy sales_portal_api on ${ZZ_CURR_TARGET}\n"
 
 echo -e "start deploy sales_portal_backend${NOCOLOR}\n"
 
@@ -62,18 +80,36 @@ echo -e "start service deploy${NOCOLOR}\n"
 
 echo -e "\n${BLUE_}end of service deploy${NOCOLOR}\n"
 
-echo -e "\n${RED__}end of deploy sales_portal_backend\n"
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
+then
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+echo -e "\n${RED__}end of deploy sales_portal_backend on ${ZZ_CURR_TARGET}\n"
 
 echo -e "start deploy sales_portal_collaboration${NOCOLOR}\n"
 
 cd ../sales_portal_collaboration
 ./zzdeploy $1 $2 $3
 
-echo -e "\n${RED__}end of deploy sales_portal_collaboration\n"
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
+then
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+echo -e "\n${RED__}end of deploy sales_portal_collaboration on ${ZZ_CURR_TARGET}\n"
 
 echo -e "start deploy sales_portal_home${NOCOLOR}\n"
 
 cd ../sales_portal_home
 ./zzdeploy $1 $2 $3
 
-echo -e "\n${RED__}end of deploy sales_portal_home${NOCOLOR}\n"
+ZZ_CURR_SPACE=`cf target|grep space`
+ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
+if [ "${ZZ_CURR_TARGET}" == "" ];
+then
+    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+echo -e "\n${RED__}end of deploy sales_portal_home on ${ZZ_CURR_TARGET}${NOCOLOR}\n"
