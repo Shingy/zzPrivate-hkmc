@@ -19,6 +19,13 @@ BG_CYAN_="\033[0;46m"   # background color : cyan
 BG_WHITE="\033[0;47m"   # background color : white / light gray
 ############################################
 
+function doDeploy()
+{
+    echo -e "\nstart deploy\n"
+    npm run deploy
+    echo -e "\nend of deploy : ${ZZ_CURR_SPACE:16}\n"
+}
+
 function del_node_modules()
 {
     echo -e "start delete node_modules\n"

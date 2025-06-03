@@ -13,12 +13,10 @@ npm run ${1,,}-home
 
 delete_mta
 
-echo -e "\nnpm build\n"
+echo -e "\n${RED__}npm build${NOCOLOR}\n"
 npm run build
 
-echo -e "\nstart deploy\n"
-npm run deploy
-echo -e "\nend of deploy : ${ZZ_CURR_SPACE:16}\n"
+doDeploy
 
 if [ "${2,,}" == $_DEL_ ] || [ "${2,,}" == $_DELETE_ ] || [ "${3,,}" == $_DEL_ ] || [ "${3,,}" == $_DELETE_ ];
 then
