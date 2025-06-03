@@ -1,24 +1,26 @@
 # rm zzdeploy_all
 # ln -s ../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_all.sh zzdeploy_all
-NOCOLOR="\033[0m"    # no color
-BLACK="\033[0;30m"   # font color : black
-RED__="\033[1;31m"   # bold, font color : red
-GREEN="\033[1;32m"   # bold, font color : green
-YELLO="\033[0;33m"   # font color : yellow
-BLUE_="\033[0;34m"   # font color : blue
-MARGE="\033[0;35m"   # font color : margenta
-CYAN_="\033[0;36m"   # font color : cyan
-WHITE="\033[0;37m"   # font color : white / light gray
+# NOCOLOR="\033[0m"    # no color
+# BLACK="\033[0;30m"   # font color : black
+# RED__="\033[1;31m"   # bold, font color : red
+# GREEN="\033[1;32m"   # bold, font color : green
+# YELLO="\033[0;33m"   # font color : yellow
+# BLUE_="\033[0;34m"   # font color : blue
+# MARGE="\033[0;35m"   # font color : margenta
+# CYAN_="\033[0;36m"   # font color : cyan
+# WHITE="\033[0;37m"   # font color : white / light gray
 
-BG_BLACK="\033[0;40m"   # background color : black
-BG_RED__="\033[0;41m"   # background color : red
-BG_GREEN="\033[0;42m"   # background color : green
-BG_YELLO="\033[0;43m"   # background color : yellow
-BG_BLUE_="\033[0;44m"   # background color : blue
-BG_MARGE="\033[0;45m"   # background color : margenta
-BG_CYAN_="\033[0;46m"   # background color : cyan
-BG_WHITE="\033[0;47m"   # background color : white / light gray
+# BG_BLACK="\033[0;40m"   # background color : black
+# BG_RED__="\033[0;41m"   # background color : red
+# BG_GREEN="\033[0;42m"   # background color : green
+# BG_YELLO="\033[0;43m"   # background color : yellow
+# BG_BLUE_="\033[0;44m"   # background color : blue
+# BG_MARGE="\033[0;45m"   # background color : margenta
+# BG_CYAN_="\033[0;46m"   # background color : cyan
+# BG_WHITE="\033[0;47m"   # background color : white / light gray
 ############################################
+
+source ./__base_import
 
 cd /home/user/projects/Workspace_2
 

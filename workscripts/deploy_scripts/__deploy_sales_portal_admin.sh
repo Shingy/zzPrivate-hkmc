@@ -1,45 +1,29 @@
 # rm zzdeploy
 # ln -s ../../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_admin.sh zzdeploy
 
-ZZ_IS_SETTING_MODE="setting"
+source ./__base_import
 
 cd /home/user/projects/Workspace_2/sales_portal_admin
 
 # ../zzcf_login $1 $2
 
-ZZ_CURR_SPACE=`cf target|grep space`
+check_node_modules
 
-ZEXIST_NODE=`find ./* -name "node_modules"`
-if [ "$ZEXIST_NODE" == "" ];
-then
-    echo -e "\nnpm install\n"
-    npm i
-else
-  echo -e "\nnode_modules exist\n"
-fi
-
-rm mta_archives/*.mtar
+delete_mta
 
 echo -e "\nnpm build\n"
 npm run build
 
 if [ "${2,,}" != "${ZZ_IS_SETTING_MODE}" ] || ([ "$3" != "" ] && [ "${3,,}" != "${ZZ_IS_SETTING_MODE}" ]);
 then
-    echo -e "\nstart deploy\n"
-    npm run deploy
-    echo -e "\nend of deploy : ${ZZ_CURR_SPACE:16}\n"
+  echo -e "\nstart deploy\n"
+  npm run deploy
+  echo -e "\nend of deploy : ${ZZ_CURR_SPACE:16}\n"
 fi
 
-if [ "${2,,}" == "del" ] || [ "${2,,}" == "delete" ] || [ "${3,,}" == "del" ] || [ "${3,,}" == "delete" ];
+if [ "${2,,}" == $_DEL_ ] || [ "${2,,}" == $_DELETE_ ] || [ "${3,,}" == $_DEL_ ] || [ "${3,,}" == $_DELETE_ ];
 then
-    echo -e "start delete node_modules\n"
-    find ./* -name "node_modules" -exec rm -Rf {} +
-    echo -e "end of delete node_modules\n"
+  del_node_modules
 fi
 
-ZCHECK_MTA=`find ./* -name "Makefile_*.mta"`
-if [ "$ZCHECK_MTA" != "" ];
-then
-  echo Delete Makefile_*.mta files
-  rm Makefile_*.mta
-fi
+del_makefile_mta

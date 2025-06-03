@@ -1,18 +1,12 @@
 # rm zzcds_deploy
 # ln -s ../../zzPrivate/workscripts/deploy_scripts/cds_deploy_sales_portal_backend.sh zzcds_deploy
 
+source ./__base_import
+
 cd /home/user/projects/Workspace_2/sales_portal_backend
 
 # ../zzcf_login $1 $2
 
-ZZ_CURR_SPACE=`cf target|grep space`
-ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
-if [ "${ZZ_CURR_TARGET}" == "" ];
-then
-    ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
-fi
-
-ZEXIST_NODE=`find ./* -name "node_modules"`
 if [ "$ZEXIST_NODE" == "" ];
 then
     echo -e "\nnpm install\n"
@@ -37,7 +31,7 @@ echo -e "\nstart cds deploy\n"
 cds deploy
 echo -e "\nend of cds deploy : ${ZZ_CURR_SPACE:16}\n"
 
-if [ "${2,,}" == "del" ] || [ "${2,,}" == "delete" ] || [ "${3,,}" == "del" ] || [ "${3,,}" == "delete" ];
+if [ "${2,,}" == $_DEL_ ] || [ "${2,,}" == $_DELETE_ ] || [ "${3,,}" == $_DEL_ ] || [ "${3,,}" == $_DELETE_ ];
 then
     echo -e "start delete node_modules\n"
     find ./* -name "node_modules" -exec rm -Rf {} +
