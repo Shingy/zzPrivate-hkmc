@@ -48,12 +48,12 @@ echo -e "\nend of git pull incentive_2c00\n"
 
 echo -e "====================================\n"
 
-echo -e "start git pull invoice_2c00\n"
-cd ../invoice_2c00
-git pull
-echo -e "\nend of git pull invoice_2c00\n"
+# echo -e "start git pull invoice_2c00\n"
+# cd ../invoice_2c00
+# git pull
+# echo -e "\nend of git pull invoice_2c00\n"
 
-echo -e "====================================\n"
+# echo -e "====================================\n"
 
 echo -e "start git pull master_2c00\n"
 cd ../master_2c00

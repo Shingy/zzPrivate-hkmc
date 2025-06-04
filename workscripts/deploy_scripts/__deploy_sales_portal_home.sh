@@ -13,7 +13,7 @@ npm run ${1,,}-home
 
 delete_mta
 
-echo -e "\n${RED__}npm build${NOCOLOR}\n"
+echo -e "\nnpm build\n"
 npm run build
 
 doDeploy

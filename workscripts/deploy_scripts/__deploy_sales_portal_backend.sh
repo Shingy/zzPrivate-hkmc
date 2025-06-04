@@ -11,7 +11,7 @@ check_node_modules
 
 delete_mta
 
-echo -e "\n${RED__}npm build${NOCOLOR}\n"
+echo -e "\nnpm build\n"
 if [ "${2,,}" != "prd" ];
 then
   npm run build:${1,,}-${ZZ_CURR_TARGET,,}

@@ -11,13 +11,13 @@ check_node_modules_sp
 
 if [ "${2,,}" == "${ZZ_IS_SETTING_MODE}" ] || [ "${3,,}" == "${ZZ_IS_SETTING_MODE}" ];
 then
-    echo -e "\n${GREEN}start $1-${ZZ_CURR_TARGET,,}-setting${NOCOLOR}\n"
+    echo -e "\n${GREEN}start $1-${ZZ_CURR_TARGET,,}-setting\n"
     npm run ${1,,}-${ZZ_CURR_TARGET,,}-setting
-    echo -e "\n${RED__}end of ${1,,}-${ZZ_CURR_TARGET,,}-setting${NOCOLOR}\n"
+    echo -e "\n$end of ${1,,}-${ZZ_CURR_TARGET,,}-setting\n"
 else
     delete_mta
 
-    echo -e "\n${RED__}npm build${NOCOLOR}\n"
+    echo -e "\n$npm build\n"
     if [ "${2,,}" != "prd" ];
     then
         npm run build:${1,,}-${ZZ_CURR_TARGET,,}

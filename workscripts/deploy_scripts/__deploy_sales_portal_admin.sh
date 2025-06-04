@@ -11,7 +11,7 @@ check_node_modules
 
 delete_mta
 
-echo -e "\n${RED__}npm build${NOCOLOR}\n"
+echo -e "\nnpm build\n"
 npm run build
 
 if [ "${2,,}" != "${ZZ_IS_SETTING_MODE}" ] || ([ "$3" != "" ] && [ "${3,,}" != "${ZZ_IS_SETTING_MODE}" ]);

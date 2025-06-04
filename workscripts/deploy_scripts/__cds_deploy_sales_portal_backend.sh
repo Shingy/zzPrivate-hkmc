@@ -9,17 +9,17 @@ cd /home/user/projects/Workspace_2/sales_portal_backend
 
 if [ "${2,,}" != "prd" ];
 then
-    echo -e "\n${RED__}$1-${ZZ_CURR_TARGET,,}-setting${NOCOLOR}\n"
+    echo -e "\n$1-${ZZ_CURR_TARGET,,}-setting\n"
     npm run $1-${ZZ_CURR_TARGET,,}-setting
 else
-    echo -e "\n${RED__}${1,,}-${2,,}-setting${NOCOLOR}\n"
+    echo -e "\n${1,,}-${2,,}-setting\n"
     npm run ${1,,}-${2,,}-setting
 fi
 
-echo -e "\n${RED__}cds build${NOCOLOR}\n"
+echo -e "\ncds build\n"
 cds build
 
-doDeploy
+cds deploy
 
 if [ "${2,,}" == $_DEL_ ] || [ "${2,,}" == $_DELETE_ ] || [ "${3,,}" == $_DEL_ ] || [ "${3,,}" == $_DELETE_ ];
 then

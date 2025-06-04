@@ -74,6 +74,7 @@ function check_node_modules_sp()
 function delete_mta()
 {
     echo -e "\ndelete mta file\n"
+    pwd
     rm mta_archives/*.mtar
 }
 
@@ -86,6 +87,13 @@ ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 3)
 if [ "${ZZ_CURR_TARGET}" == "" ];
 then
     ZZ_CURR_TARGET=$(echo ${ZZ_CURR_SPACE:16}|cut -d'_' -f 2)
+fi
+
+if [ "${ZZ_CURR_SPACE:16}" == "HMM" ] || [ "${ZZ_CURR_SPACE:16}" == "KCA" ];
+then
+    ZZ_LOG_SPACE="${ZZ_CURR_SPACE:16}_PRD"
+else
+    ZZ_LOG_SPACE=${ZZ_CURR_SPACE:16}
 fi
 
 _DEL_="del"
