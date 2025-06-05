@@ -40,7 +40,7 @@ echo -e "\nend of git pull dealership_1600\n"
 # git pull
 # echo -e "\nend of git pull home_1600\n"
 
-# echo -e "====================================\n"
+echo -e "====================================\n"
 
 echo -e "start git pull incentives_1600\n"
 cd ../incentives_1600

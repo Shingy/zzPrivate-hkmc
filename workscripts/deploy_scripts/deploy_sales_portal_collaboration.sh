@@ -4,5 +4,5 @@ cd /home/user/projects/zzPrivate/workscripts/deploy_scripts
 
 source ./__base_import
 
-find /home/user/projects/Workspace_2/zzdeploy_logs -name "_${ZZ_LOG_SPACE}_collaboration_*.log" -mtime +2 -delete
-./__deploy_sales_portal_collaboration.sh $1 $2 $3 > /home/user/projects/Workspace_2/zzdeploy_logs/_${ZZ_LOG_SPACE}_collaboration_`date -d "+9 hours" +%y%m%d_%H%M%S`.log
+find /home/user/projects/Workspace_2/zzdeploy_logs/${1^^} -name "_${ZZ_LOG_SPACE}_collaboration_*.log" $ZZ_MTIME_OR_MMIN -delete
+./__deploy_sales_portal_collaboration.sh $1 $2 $3 > /home/user/projects/Workspace_2/zzdeploy_logs/${1^^}/_${ZZ_LOG_SPACE}_collaboration_`date -d "+9 hours" +%y%m%d_%H%M%S`.log

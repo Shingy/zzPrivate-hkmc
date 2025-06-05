@@ -78,6 +78,8 @@ function delete_mta()
     rm mta_archives/*.mtar
 }
 
+# ZZ_MTIME_OR_MMIN="-mtime +1"
+ZZ_MTIME_OR_MMIN="-mmin +10"
 ZZ_IS_SETTING_MODE="setting"
 
 # ../../commands/cf_login.sh $1 $2
