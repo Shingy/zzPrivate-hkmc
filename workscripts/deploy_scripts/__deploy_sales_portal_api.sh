@@ -1,3 +1,4 @@
+#!/bin/bash
 # rm zzdeploy
 # ln -s ../../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_api.sh zzdeploy
 

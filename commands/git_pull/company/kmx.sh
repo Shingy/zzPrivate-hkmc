@@ -1,3 +1,4 @@
+#!/bin/bash
 # in Workspace_2 :
 # ln -s ../zzPrivate/commands/git_pull/company/kca.sh zzgit_pull
 # ./zzgit_pull

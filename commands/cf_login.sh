@@ -1,3 +1,4 @@
+#!/bin/bash
 ZZ_API_ENDPOINT="https://api.cf.us10-001.hana.ondemand.com";
 ZZ_EMAIL="9485147@ict-companion.com"
 ZZ_PW="Qwert12#$%"

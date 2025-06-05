@@ -1,3 +1,4 @@
+#!/bin/bash
 ./cf_login.sh $1 $2
 if [ $? -ne 0 ];
 then

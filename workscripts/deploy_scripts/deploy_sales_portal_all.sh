@@ -1,3 +1,4 @@
+#!/bin/bash
 # rm zzdeploy_all
 # ln -s ../zzPrivate/workscripts/deploy_scripts/deploy_sales_portal_all.sh zzdeploy_all
 

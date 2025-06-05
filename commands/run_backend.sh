@@ -1,3 +1,4 @@
+#!/bin/bash
 # rm zzrun
 # ln -s ../../zzPrivate/commands/run_backend.sh zzrun
 

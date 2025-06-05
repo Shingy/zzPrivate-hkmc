@@ -1,3 +1,4 @@
+#!/bin/bash
 # rm zzcds_deploy
 # ln -s ../../zzPrivate/workscripts/deploy_scripts/cds_deploy_sales_portal_backend.sh zzcds_deploy
 

@@ -1,3 +1,4 @@
+#!/bin/bash
 TARGET="$2"
 if [ "${1,,}" == "hyundai" ] || [ "${1,,}" == "h" ];
 then

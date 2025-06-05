@@ -1,3 +1,4 @@
+#!/bin/bash
 # cd ../OLD
 
 # git clone https://gitlabee/p-23-2251-hk-erp-2/sales-portal/common/ias_usersync_job.git
