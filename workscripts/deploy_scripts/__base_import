@@ -44,8 +44,8 @@ function del_makefile_mta()
     ZCHECK_MTA=`find ./* -name "Makefile_*.mta"`
     if [ "$ZCHECK_MTA" != "" ];
     then
-    echo Delete Makefile_*.mta files
-    rm Makefile_*.mta
+        echo Delete Makefile_*.mta files
+        rm Makefile_*.mta
     fi
 }
 
@@ -80,7 +80,6 @@ function check_node_modules_sp()
 function delete_mta()
 {
     echo -e "\ndelete mta file\n"
-    pwd
     rm mta_archives/*.mtar
 }
 
