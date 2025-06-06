@@ -20,9 +20,19 @@ BG_CYAN_="\033[0;46m"   # background color : cyan
 BG_WHITE="\033[0;47m"   # background color : white / light gray
 ############################################
 
+function generate_datetime()
+{
+    if [ "$1" == "formatted" ];
+    then
+        echo `date -d "+9 hours" +"%y-%m-%d %H:%M:%S"`
+    else
+        echo `date -d "+9 hours" +%y%m%d_%H%M%S`
+    fi
+}
+
 function create_logfile_name()
 {
-    echo _${ZZ_LOG_SPACE}_$1_`date -d "+9 hours" +%y%m%d_%H%M%S`.log
+    echo _${ZZ_LOG_SPACE}_$1_$(generate_datetime).log
 }
 
 function doDeploy()
@@ -44,8 +54,8 @@ function del_makefile_mta()
     ZCHECK_MTA=`find ./* -name "Makefile_*.mta"`
     if [ "$ZCHECK_MTA" != "" ];
     then
-        echo Delete Makefile_*.mta files
-        rm Makefile_*.mta
+    echo Delete Makefile_*.mta files
+    rm Makefile_*.mta
     fi
 }
 
@@ -80,6 +90,7 @@ function check_node_modules_sp()
 function delete_mta()
 {
     echo -e "\ndelete mta file\n"
+    pwd
     rm mta_archives/*.mtar
 }
 
