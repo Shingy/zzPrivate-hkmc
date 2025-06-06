@@ -43,10 +43,20 @@ then
     elif [ "$1" == "1" ];
     then
         ./common1.sh
+        if [ $? -ne 0 ];
+        then
+            cd /home/user/projects/zzPrivate/commands/git_pull
+            ./common1.sh
+        fi
 
     elif [ "$1" == "2" ];
     then
         ./common2.sh
+        if [ $? -ne 0 ];
+        then
+            cd /home/user/projects/zzPrivate/commands/git_pull
+            ./common2.sh
+        fi
 
     elif [ "${1,,}" == "hacc" ];
     then
